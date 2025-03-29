@@ -55,7 +55,7 @@
 		<StackPanel Spacing="8"
 					Orientation="Horizontal"
 					HorizontalAlignment="Left">
-			<TextBlock Text="暗色主题"
+			<TextBlock Text="Avalonia Monet Sample"
 				   FontWeight="SemiBold"
 				   FontSize="36"
 				   Name="Theme"

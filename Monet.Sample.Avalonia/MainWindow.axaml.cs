@@ -16,7 +16,7 @@ namespace Monet.Sample.Avalonia;
 
 public partial class MainWindow : Window {
     private double level = 0.57;
-    private MonetColors _monet = Application.Current.Styles[1] as MonetColors;
+    private MonetColors _monet = Application.Current.Styles.ElementAtOrDefault(1) as MonetColors ?? throw new InvalidOperationException("MonetColors not found in Application.Current.Styles.");
     private ResourceDictionary resources = null!;
     private Color defaultColor = Application.Current!.PlatformSettings!.GetColorValues().AccentColor1;
 

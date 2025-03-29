@@ -21,6 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Monet.Avalonia\Monet.Avalonia.csproj" />
+    <ProjectReference Include="../Monet.Avalonia/Monet.Avalonia.csproj" />
   </ItemGroup>
 </Project>
